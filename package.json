@@ -1,0 +1,19 @@
+{
+  "name": "ai-self-healing-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "cypress run",
+  "test:demo": "cypress run --spec cypress/e2e/healing-demo.cy.js",
+  "test:github": "cypress run --spec cypress/e2e/github.cy.js",
+  "test:headed": "cypress open"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.106.0",
+    "cypress": "^15.18.0"
+  }
+}
